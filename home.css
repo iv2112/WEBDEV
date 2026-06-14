@@ -1,0 +1,121 @@
+html {
+  background-color: rgb(242, 230, 216);
+}
+
+.h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  color: rgb(110, 178, 8);
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.intro,
+.importance,
+.jobs,
+.salaries,
+.courses {
+  background-image: linear-gradient(to right, rgb(129, 208, 11), green);
+  border: none;
+  color: white;
+  height: 35px;
+  width: 105px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.intro:hover {
+  opacity: 0.8;
+}
+
+.importance:hover {
+  opacity: 0.8;
+}
+
+.jobs:hover {
+  opacity: 0.8;
+}
+
+.salaries:hover {
+  opacity: 0.8;
+}
+
+.courses:hover {
+  opacity: 0.8;
+}
+
+.intro:active {
+  opacity: 0.5;
+}
+
+.importance:active {
+  opacity: 0.5;
+}
+
+.jobs:active {
+  opacity: 0.5;
+}
+
+.salaries:active {
+  opacity: 0.5;
+}
+
+.courses:active {
+  opacity: 0.5;
+}
+
+.intro {
+  margin-left: 260px;
+}
+
+.it {
+  color: white;
+  text-decoration: none;
+}
+
+.di {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+.description {
+  font-size: 19px;
+  margin-top: 57px;
+  text-align: center;
+  width: 350px;
+  margin-left: 20px;
+  color: white;
+  line-height: 25px;
+}
+
+.div {
+  background-image: linear-gradient(to top, rgb(108, 171, 13), green);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 7px;
+  width: 400px;
+  height: 300px;
+  margin-left: 55px;
+  margin-top: 130px;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: inline-block;
+}

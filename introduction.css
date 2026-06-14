@@ -1,0 +1,137 @@
+html {
+  background-color: rgb(242, 230, 216);
+}
+
+.h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  color: rgb(110, 178, 8);
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.importance,
+.jobs,
+.salaries,
+.courses {
+  background-image: linear-gradient(to right, rgb(129, 208, 11), green);
+  border: none;
+  color: white;
+  height: 35px;
+  width: 105px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.intro {
+  border: none;
+  color: white;
+  height: 35px;
+  width: 105px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: green;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.importance:hover {
+  opacity: 0.8;
+}
+
+.jobs:hover {
+  opacity: 0.8;
+}
+
+.salaries:hover {
+  opacity: 0.8;
+}
+
+.courses:hover {
+  opacity: 0.8;
+}
+
+.importance:active {
+  opacity: 0.5;
+}
+
+.jobs:active {
+  opacity: 0.5;
+}
+
+.salaries:active {
+  opacity: 0.5;
+}
+
+.courses:active {
+  opacity: 0.5;
+}
+
+.intro {
+  margin-left: 260px;
+}
+
+.it {
+  color: white;
+  text-decoration: none;
+}
+
+.di {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+p {
+  color: white;
+  font-size: 18px;
+}
+
+.div {
+  background-image: linear-gradient(to bottom, rgb(129, 208, 11), green);
+  opacity: 0.85;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 9px;
+  padding-left: 9px;
+  margin-top: 70px;
+  border-radius: 9px;
+  width: 650px;
+  margin-left: 360px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.sub {
+  background-image: linear-gradient(to bottom, rgb(129, 208, 11), green);
+  opacity: 0.85;
+  border-radius: 8px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 180px;
+  cursor: pointer;
+}

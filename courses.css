@@ -1,0 +1,143 @@
+html {
+  background-color: rgb(242, 230, 216);
+}
+
+.h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  color: rgb(110, 178, 8);
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.intro,
+.importance,
+.jobs,
+.salaries {
+  background-image: linear-gradient(to right, rgb(129, 208, 11), green);
+  border: none;
+  color: white;
+  height: 35px;
+  width: 105px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.courses {
+  border: none;
+  color: white;
+  height: 35px;
+  width: 105px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: green;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.intro:hover {
+  opacity: 0.8;
+}
+
+.importance:hover {
+  opacity: 0.8;
+}
+
+.jobs:hover {
+  opacity: 0.8;
+}
+
+.salaries:hover {
+  opacity: 0.8;
+}
+
+.intro:active {
+  opacity: 0.5;
+}
+
+.importance:active {
+  opacity: 0.5;
+}
+
+.jobs:active {
+  opacity: 0.5;
+}
+
+.salaries:active {
+  opacity: 0.5;
+}
+
+
+.intro {
+  margin-left: 260px;
+}
+
+.it {
+  color: white;
+  text-decoration: none;
+}
+
+.di {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 23px;
+}
+
+.frontend,
+.backend {
+  background-image: linear-gradient(to bottom, rgb(108, 171, 13), green);
+  display: inline-block;
+  margin-top: 65px;
+  height: 500px;
+  width: 400px;
+  border-radius: 12px;
+  opacity: 0.95;
+}
+
+.frontend {
+  margin-left: 250px;
+}
+
+.backend {
+  margin-left: 120px;
+}
+
+.a1,
+.b1 {
+  text-decoration: none;
+  color: white;
+  padding-left: 27px;
+  font-size: 20px;
+}
+
+.f,
+.b {
+  margin-top: 25px;
+  margin-bottom: 60px;
+}

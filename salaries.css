@@ -1,0 +1,163 @@
+html {
+  background-color: rgb(242, 230, 216);
+}
+
+.h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  color: rgb(110, 178, 8);
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.intro,
+.importance,
+.jobs,
+.courses {
+  background-image: linear-gradient(to right, rgb(129, 208, 11), green);
+  border: none;
+  color: white;
+  height: 35px;
+  width: 105px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.salaries {
+  border: none;
+  color: white;
+  height: 35px;
+  width: 105px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: green;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.intro:hover {
+  opacity: 0.8;
+}
+
+.importance:hover {
+  opacity: 0.8;
+}
+
+.jobs:hover {
+  opacity: 0.8;
+}
+
+.courses:hover {
+  opacity: 0.8;
+}
+
+.intro:active {
+  opacity: 0.5;
+}
+
+.importance:active {
+  opacity: 0.5;
+}
+
+.jobs:active {
+  opacity: 0.5;
+}
+
+.courses:active {
+  opacity: 0.5;
+}
+
+.intro {
+  margin-left: 260px;
+}
+
+.it {
+  color: white;
+  text-decoration: none;
+}
+
+.di {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+
+.d1,
+.d {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+  color: white;
+  background-color: rgb(44, 146, 6);
+  opacity: 0.8;
+  margin-top: 20px;
+  width: 890px;
+  border-radius: 25px;
+  margin-left: 275px;
+}
+
+.d1 {
+  margin-top: 100px;
+}
+
+.ds1 {
+  text-align: right;
+  display: inline-block;
+  margin-left: 558px;
+}
+
+.ds2 {
+  text-align: right;
+  display: inline-block;
+  margin-left: 565.7px;
+}
+
+.ds3 {
+  text-align: right;
+  display: inline-block;
+  margin-left: 546px;
+}
+
+.ds4 {
+  text-align: right;
+  display: inline-block;
+  margin-left: 597px;
+}
+
+.ds5 {
+  text-align: right;
+  display: inline-block;
+  margin-left: 350px;
+}
+
+.ds6 {
+  text-align: right;
+  display: inline-block;
+  margin-left: 536px;
+}
+
+p {
+  display: inline-block;
+}
+
+.j {
+  margin-left: 25px;
+}
